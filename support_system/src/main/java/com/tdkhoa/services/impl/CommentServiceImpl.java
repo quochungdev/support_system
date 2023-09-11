@@ -35,6 +35,7 @@ public class CommentServiceImpl implements CommentService {
         }
         else {
             cmt = new Comment();
+            cmt.setDate(currentDate);
         }
         if(params.containsKey("content")) {
             cmt.setContent(params.get("content"));

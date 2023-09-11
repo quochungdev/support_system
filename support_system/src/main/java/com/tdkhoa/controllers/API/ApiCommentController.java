@@ -67,6 +67,7 @@ public class ApiCommentController {
     }
     
     @DeleteMapping("/delete_comment/{comment_id}")
+    @CrossOrigin
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void delete(@PathVariable(value = "comment_id") int comment_id) {
         System.out.println("Xoa");

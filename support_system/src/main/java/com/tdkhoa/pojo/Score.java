@@ -45,11 +45,11 @@ public class Score implements Serializable {
     @Column(name = "score")
     private Double score;
     @JoinColumn(name = "category_id", referencedColumnName = "id")
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     private Category categoryId;
     @JoinColumn(name = "major_id", referencedColumnName = "id")
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     private Major majorId;
 

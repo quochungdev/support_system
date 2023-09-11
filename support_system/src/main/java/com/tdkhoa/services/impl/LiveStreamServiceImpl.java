@@ -2,6 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.tdkhoa.services.impl;
 
 import com.cloudinary.Cloudinary;
@@ -11,6 +15,9 @@ import com.tdkhoa.pojo.Livestream;
 import com.tdkhoa.repository.LiveStreamRepository;
 import com.tdkhoa.services.LiveStreamService;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
@@ -18,6 +25,7 @@ import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+
 
 /**
  *
@@ -35,7 +43,7 @@ public class LiveStreamServiceImpl implements LiveStreamService {
         return this.liveRepo.getListLivestreams();
     }
 
-    @Override
+     @Override
     public Livestream addOrUpdate(Map<String, String> params, MultipartFile thumbnail, Faculty fal) {
         int liveId;
         Livestream liveS;
@@ -45,13 +53,27 @@ public class LiveStreamServiceImpl implements LiveStreamService {
         }
         else {
             liveS = new Livestream();
+            liveS.setTime(0.0);
         }
         if(params.containsKey("title")) {
             liveS.setTitle(params.get("title"));
         }
-        liveS.setTime(0.0);
-        if(params.containsKey("faculty_id")) {
+
+        if(params.containsKey("facultyId")) {
             liveS.setFacultyId(fal);
+        }
+        
+        String pattern = "yyyy-MM-dd HH:mm:ss";
+        SimpleDateFormat dateFormat = new SimpleDateFormat(pattern);
+        Date date = null;
+        try {
+            date = dateFormat.parse(params.get("date"));
+        } catch (ParseException ex) {
+            Logger.getLogger(LiveStreamServiceImpl.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        if(params.containsKey("date")) {
+            liveS.setDate(date);
         }
         
         if (!thumbnail.isEmpty()) {
@@ -63,7 +85,8 @@ public class LiveStreamServiceImpl implements LiveStreamService {
             }
         }
         this.liveRepo.addOrUpdate(liveS);
-        return null;
+//        return null;
+        return liveS;
     }
 
     @Override

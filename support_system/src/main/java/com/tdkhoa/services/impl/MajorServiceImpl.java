@@ -38,7 +38,8 @@ public class MajorServiceImpl implements MajorService {
         int majorId;
         Major major;
         if(params.get("id") != null) {
-            major = this.mjRepo.getMajorById(Integer.parseInt(params.get("id")));
+            majorId = Integer.parseInt(params.get("id"));
+            major = this.mjRepo.getMajorById(majorId);
         }
         else {
             major = new Major();
@@ -46,7 +47,7 @@ public class MajorServiceImpl implements MajorService {
         if(params.containsKey("name")) {
             major.setName(params.get("name"));
         }
-        if(params.containsKey("faculty_id")) {
+        if(params.containsKey("facultyId")) {
             major.setFacultyId(f);
         }
 //        Major major = new Major();

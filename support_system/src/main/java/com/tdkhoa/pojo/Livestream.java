@@ -67,7 +67,7 @@ public class Livestream implements Serializable {
     @OneToMany(mappedBy = "livestreamId")
     private Set<Question> questionSet;
     @JoinColumn(name = "faculty_id", referencedColumnName = "id")
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     private Faculty facultyId;
 

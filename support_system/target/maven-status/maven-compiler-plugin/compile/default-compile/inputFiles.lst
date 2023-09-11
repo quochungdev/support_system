@@ -1,87 +1,87 @@
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\LiveStreamRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiArticleController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiLivestreamController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\ScoreRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\configs\SecurityWebAppInitializer.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\CommentServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\FacultyRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\CommentService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Score.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiCommentController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\MajorRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\formatters\ArticleFormatter.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiQuestionController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\LoginController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\ScoreRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\ArticleService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\configs\SpringSecurityConfig.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\QuestionController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\BannerService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\filters\CustomAccessDeniedHandler.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiMajorController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\BannerServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\LiveStreamRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\MajorRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Article.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\FacultyRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\LiveStreamService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\QuestionServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\HomeController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\CategoryServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\CommentController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\CategoryService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\configs\WebApplicationContextConfig.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\formatters\ScoreFormatter.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\CategoryRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\ArticleController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\UserServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\formatters\FacultyFormatter.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\UserRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\QuestionRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\RegisterController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\FacultyController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\filters\JwtAuthenticationTokenFilter.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\FacultyServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\UserService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\configs\HibernateConfig.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\LiveStreamController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiFacultyController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\components\JwtService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiBannerController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\BannerRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\ArticleRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\FacultyService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\ArticleRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\QuestionRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\configs\JwtSecurityConfig.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiUserController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\MajorService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\ScoreService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\configs\TilesConfigs.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Major.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\CategoryRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\CommentRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\filters\RestAuthenticationEntryPoint.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\configs\DispatcherServletInitializer.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\ScoreController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\AuthService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\formatters\CategoryFormatter.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\User.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Faculty.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Category.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\ArticleServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiCategoryController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\ScoreServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Banner.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\MajorController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Question.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\UserRepository.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\QuestionService.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\CommentRepositoryImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\MajorServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiScoreController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\controllers\CategoryController.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Comment.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\pojo\Livestream.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\services\impl\LiveStreamServiceImpl.java
-C:\Users\Khoa Tran\Documents\NetBeansProjects\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\BannerRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\configs\DispatcherServletInitializer.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\QuestionController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\configs\JwtSecurityConfig.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\BannerRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\ScoreRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\ScoreController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\CommentServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\filters\JwtAuthenticationTokenFilter.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\CategoryRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\ScoreRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\FacultyRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\QuestionRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\MajorController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\BannerRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\FacultyController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\ArticleRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\FacultyRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\ArticleService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Major.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\BannerServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\LiveStreamServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\FacultyService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\configs\SecurityWebAppInitializer.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\QuestionServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Faculty.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\CommentService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\AuthService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\CategoryServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\ScoreServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\configs\HibernateConfig.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\configs\SpringSecurityConfig.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\BannerService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\configs\TilesConfigs.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\ScoreService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\LiveStreamRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\QuestionService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\CommentRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\CategoryService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\MajorRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\User.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\MajorRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Article.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\ArticleServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\CategoryController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Question.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\CommentRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiMajorController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Score.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Category.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\filters\RestAuthenticationEntryPoint.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiLivestreamController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\CategoryRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiCommentController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiBannerController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\formatters\ArticleFormatter.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\MajorServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\UserRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Livestream.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\UserRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\UserService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\formatters\FacultyFormatter.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\LiveStreamRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiQuestionController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\ArticleController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiCategoryController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiScoreController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Banner.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\ArticleRepository.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\formatters\ScoreFormatter.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\pojo\Comment.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\LiveStreamService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\repository\impl\QuestionRepositoryImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiArticleController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\UserServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\formatters\CategoryFormatter.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\configs\WebApplicationContextConfig.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiUserController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\LoginController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\CommentController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\RegisterController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\components\JwtService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\LiveStreamController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\API\ApiFacultyController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\controllers\HomeController.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\impl\FacultyServiceImpl.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\services\MajorService.java
+D:\Java\support_system\support_system\src\main\java\com\tdkhoa\filters\CustomAccessDeniedHandler.java

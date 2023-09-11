@@ -51,11 +51,11 @@ public class Question implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateSubmitted;
     @JoinColumn(name = "livestream_id", referencedColumnName = "id")
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     private Livestream livestreamId;
     @JoinColumn(name = "user_id", referencedColumnName = "id")
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     private User userId;
 

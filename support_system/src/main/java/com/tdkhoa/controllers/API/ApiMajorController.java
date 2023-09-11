@@ -53,6 +53,12 @@ public class ApiMajorController {
         return new ResponseEntity<>(m, HttpStatus.CREATED);
     }
     
+//    @PostMapping("/create_major/")
+//    @CrossOrigin
+//    public ResponseEntity<Boolean> add(@RequestBody Major m) {
+//        return new ResponseEntity<>(this.mjServ.addOrUpdate(m), HttpStatus.CREATED);
+//    }
+    
     @DeleteMapping("/delete_major/{major_id}/")
     @CrossOrigin
     @ResponseStatus(HttpStatus.NO_CONTENT)

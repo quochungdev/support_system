@@ -45,6 +45,7 @@ public class ArticleServiceImpl implements ArticleService {
         }
         else {
             article = new Article();
+            article.setDate(currentDate);
         }
         if(params.containsKey("title")) {
             article.setTitle(params.get("title"));
@@ -58,10 +59,10 @@ public class ArticleServiceImpl implements ArticleService {
         if(params.containsKey("user_id")) {
             article.setUserId(user);
         }
-        if(params.containsKey("faculty_id")) {
+        if(params.containsKey("facultyId")) {
             article.setFacultyId(faculty);
         }
-        if(params.containsKey("category_id")) {
+        if(params.containsKey("cateId")) {
             article.setCategoryId(cate);
         }
         if (!thumbnail.isEmpty()) {

@@ -86,6 +86,7 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
 //            .access("hasRole('ROLE_ADMIN')");
 //        http.csrf().disable();
         // Disable crsf cho đường dẫn /rest/**
+        
         http.csrf().ignoringAntMatchers("/api/**");
         http.authorizeRequests().antMatchers("/api/login/").permitAll();
         http.authorizeRequests().antMatchers("/api/register/").permitAll();
@@ -93,11 +94,16 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().antMatchers("/api/categories/").permitAll();
         http.authorizeRequests().antMatchers("/api/faculties/").permitAll();
         http.authorizeRequests().antMatchers("/api/majors/").permitAll();
+        http.authorizeRequests().antMatchers("/api/scores/").permitAll();
+        http.authorizeRequests().antMatchers("/api/livestreams/").permitAll();
         http.authorizeRequests().antMatchers("/api/banners_homepage/").permitAll();
         http.authorizeRequests().antMatchers("/api/current-user/").permitAll();
+        http.authorizeRequests().antMatchers("/api/delete_comment/{comment_id}/").permitAll();
         http.authorizeRequests().antMatchers("/api/comments/article/{article_id}/").permitAll();
+        http.authorizeRequests().antMatchers("/api/view_article/{article_id}/comment_article/").permitAll();
         http.authorizeRequests().antMatchers("/api/comments/").permitAll();
-        http.authorizeRequests().antMatchers("/api/questions/").permitAll();
+        http.authorizeRequests().antMatchers("/api/questions/livestream/{livestream_id}/").permitAll();
+        http.authorizeRequests().antMatchers("/api/questions/send_question/").permitAll();
         http.antMatcher("/api/**").httpBasic().authenticationEntryPoint(restServicesEntryPoint()).and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().authorizeRequests()
                 .antMatchers(HttpMethod.GET, "/api/**").access("hasRole('ROLE_ADMIN')")
